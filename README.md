@@ -10,6 +10,9 @@ Blueberry Microservice : Create EKS cluster on with EC2 and ELB. This is then us
 
 aws-cdk-demo-stack : It is a blank template.
 
+You can find the PPT of my session at https://www.slideshare.net/rohinigaonkar/infrastructure-as-code-with-aws-cloud-development-kit-cdk
+
+
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
