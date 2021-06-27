@@ -1,6 +1,14 @@
 # Welcome to your CDK TypeScript project!
 
-This is a blank project for TypeScript development with CDK.
+This is a demo project for TypeScript development with CDK.
+
+Entrypoint is in bin
+It has 3 stacks in lib - 
+Network stack : Creates the base networking infrastructure
+Apple Microservice : Creates simple EC2 into the VPC (created by network stack)
+Blueberry Microservice : Create EKS cluster on with EC2 and ELB. This is then used by the AWS-CDK8s-demo. 
+
+aws-cdk-demo-stack : It is a blank template.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
